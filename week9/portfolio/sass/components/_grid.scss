@@ -1,0 +1,22 @@
+.media-grid {
+  list-style-type: none;
+  background: #000078;
+  margin: 0;
+  padding: 0;
+}
+
+.media-grid li {
+  background: #000078;
+  float: left;
+  height: 150px;
+  width: 20%;
+}
+
+.media-grid li:nth-child(even) {
+  background: #000038;
+}
+
+.media-grid.media-grid-sm li {
+  width: 10%;
+  height: 100px;
+}
