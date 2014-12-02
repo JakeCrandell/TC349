@@ -1,0 +1,119 @@
+/* line 1, ../sass/components/_profile.scss */
+body {
+  background: #2c3e50;
+}
+
+/* line 5, ../sass/components/_profile.scss */
+.wrap {
+  margin: 0 auto;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  width: 960px;
+}
+
+/* line 12, ../sass/components/_profile.scss */
+.profile {
+  clear: both;
+  padding: 20px;
+  text-align: center;
+  background: #2980b9;
+}
+
+/* line 19, ../sass/components/_profile.scss */
+#portrait {
+  /*background-color: #7e598d;*/
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  length: 188px;
+  height: 241px;
+}
+
+/* line 1, ../sass/components/_grid.scss */
+.media-grid {
+  list-style-type: none;
+  background: #000078;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, ../sass/components/_grid.scss */
+.media-grid li {
+  background: #000078;
+  float: left;
+  height: 150px;
+  width: 20%;
+}
+
+/* line 15, ../sass/components/_grid.scss */
+.media-grid li:nth-child(even) {
+  background: #000038;
+}
+
+/* line 19, ../sass/components/_grid.scss */
+.media-grid.media-grid-sm li {
+  width: 10%;
+  height: 100px;
+}
+
+/* line 1, ../sass/components/_project.scss */
+.current-project {
+  clear: both;
+  margin: 0;
+  padding-top: 75px;
+  padding-left: 380px;
+  background: #2980b9;
+  border-bottom: 5px solid #fff;
+}
+
+/* line 10, ../sass/components/_project.scss */
+#project-window {
+  clear: both;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
+  height: 200px;
+  width: 200px;
+  background: #000078;
+  -webkit-box-shadow: black 0px 5px 4px;
+  -moz-box-shadow: black 0px 5px 4px;
+  box-shadow: black 0px 5px 4px;
+}
+
+/* line 1, ../sass/components/_base.scss */
+.content {
+  margin: 0;
+  padding: 0;
+  background: #d0c8d3;
+  /*border-top: 5px solid #fff;*/
+}
+
+/* line 8, ../sass/components/_base.scss */
+#content-img {
+  background: #d0c8d3;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  display: block;
+  length: 150px;
+  height: 150px;
+  display: inline;
+  float: left;
+}
+
+/* line 20, ../sass/components/_base.scss */
+.content p {
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0;
+}
+
+/* line 27, ../sass/components/_base.scss */
+#top {
+  padding-top: 20px;
+}

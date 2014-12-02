@@ -1,0 +1,20 @@
+.current-project {
+  clear: both;
+  margin: 0;
+  padding-top: 75px;
+  padding-left: 380px;
+  background: #2980b9;
+  border-bottom: 5px solid #fff;
+}
+
+#project-window {
+  clear: both;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
+  height: 200px;
+  width: 200px;
+  background: #000078;
+  @include single-box-shadow(4px,#000);
+}

@@ -1,0 +1,24 @@
+body {
+  background: #2c3e50;
+}
+
+.wrap {
+  margin: 0 auto;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  width: 960px;
+}
+
+.profile {
+  clear: both;
+  padding: 20px;
+  text-align: center;
+  background: #2980b9;
+}
+
+#portrait {
+  /*background-color: #7e598d;*/
+  @include border-radius(6px);
+  length: 188px;
+  height: 241px;
+}
